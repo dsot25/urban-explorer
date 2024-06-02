@@ -24,12 +24,12 @@ Either as you go or after you are done writing your program, answer the followin
 
 **What did Copilot do well as the navigator?**
 
-Write your response here!
+It did well on letting me know if i had any errors In my code without telling me specifically. It also did well letting me know If I was on the right track.
 
 **What did Copilot struggle with as the navigator?**
 
-Write your response here!
+I dont think it struggled with anything it always put me on the right path.
 
 **What challenges did you face while working with Copilot as the navigator?**
 
-Write your response here!
+I didnt face any challanges everything went smooth.

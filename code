@@ -1,0 +1,43 @@
+// UrbanExplorer.java
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+public class UrbanExplorer {
+
+    public static List<String> sortCities(List<String> cities) {
+        Collections.sort(cities);
+        return cities;
+    }
+
+    public static void main(String[] args) {
+        // Example list of cities
+        List<String> cities = new ArrayList<>();
+        cities.add("New York");
+        cities.add("Paris");
+        cities.add("Tokyo");
+        cities.add("Sydney");
+        cities.add("Berlin");
+
+        List<String> sortedCities = sortCities(cities);
+        System.out.println("Sorted Cities: " + sortedCities);
+
+        // Additional test cases
+        List<String> moreCities = new ArrayList<>();
+        moreCities.add("Amsterdam");
+        moreCities.add("Zurich");
+        moreCities.add("Vienna");
+        moreCities.add("Barcelona");
+        moreCities.add("Oslo");
+        System.out.println("Sorted More Cities: " + sortCities(moreCities));
+
+        // Edge cases
+        List<String> emptyList = new ArrayList<>();
+        System.out.println("Sorted Empty List: " + sortCities(emptyList));
+
+        List<String> singleCity = new ArrayList<>();
+        singleCity.add("Kyoto");
+        System.out.println("Sorted Single City: " + sortCities(singleCity));
+    }
+}
